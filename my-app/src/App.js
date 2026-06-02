@@ -5,7 +5,7 @@ import Header from './Components/Header.js';
 import Home from './Pages/Home.js';
 import Employees from './Pages/Employees.js';
 import Animals from './Pages/Animals.js';
-import Test from './Pages/Test.js';
+
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/Employees' element={<Employees />} />
           <Route path='/Animals' element={<Animals />} />
-          <Route path='/Test' element={<Test />} />
+     
         </Routes>
       </BrowserRouter>
     </div>
